@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arjun's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header>
+        <nav>
+            <div class="logo">Mukesh S</div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <img src="profile.jpg" alt="mukesh's Profile Picture" class="profile-pic">
+            <h1>Hi, I'm Mukesh S</h1>
+            <p>Web Developer & AI Enthusiast</p>
+            <button class="cta-button" onclick="scrollToSection('about')">Learn More</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate second-year B.Tech student who loves creating amazing web experiences and 
+                        exploring the world of artificial intelligence.</p>
+                    <p>When I'm not coding, you'll find me participating in hackathons or learning new technologies
+                         to build innovative solutions.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>2+</h3>
+                        <p>Years Learning</p>
+                    </div>
+                    <div class="stat">
+                        <h3>10+</h3>
+                        <p>Projects</p>
+                    </div>
+                    <div class="stat">
+                        <h3>5+</h3>
+                        <p>Hackathons</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">🌐</div>
+                    <h3>Frontend</h3>
+                    <div class="skill-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>React</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚙️</div>
+                    <h3>Backend</h3>
+                    <div class="skill-tags">
+                        <span>Python</span>
+                        <span>Flask</span>
+                        <span>Node.js</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🤖</div>
+                    <h3>AI/ML</h3>
+                    <div class="skill-tags">
+                        <span>Machine Learning</span>
+                        <span>Data Science</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=400&h=250&fit=crop" alt="News Classifier Project">
+                    </div>
+                    <div class="project-content">
+                        <h3>News Classifier</h3>
+                        <p>AI/ML based project that classifies news articles using machine learning algorithms.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>ML</span>
+                            <span>Flask</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?w=400&h=250&fit=crop" alt="Netflix Clone Project">
+                    </div>
+                    <div class="project-content">
+                        <h3>Netflix Clone</h3>
+                        <p>A responsive Netflix clone built with React framework featuring movie browsing and streaming interface.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>CSS</span>
+                            <span>API</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <p>I'm always open to discussing new opportunities and interesting projects!</p>
+                <div class="contact-links">
+                    <a href="https://github.com/mukesh123-ghb " target="_blank" class="contact-link">
+                        <span class="contact-icon">🔗</span>
+                        GitHub Profile
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Mukesh S. Made with ❤️ for learning.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
